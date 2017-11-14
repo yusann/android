@@ -58,6 +58,7 @@ public class Field
 		gl.glVertexPointer( 3, GL10.GL_FLOAT, 0, vertexBuffer );
 
 		// ポリゴン描画
+			//      ポリゴン描画時の頂点モード, 開始位置, 頂点数
 		gl.glDrawArrays( GL10.GL_TRIANGLE_STRIP, 0, 4 );
 		
 		gl.glDisableClientState( GL10.GL_VERTEX_ARRAY );
